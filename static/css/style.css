@@ -1,31 +1,43 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>CALCULATOR</title>
-        <link rel="stylesheet" href="../static/css/style.css">
-    </head>
-    <body>
-        <div class="title-div"><h1>full stack calculator</h1>
-            
-            <form action="" method="Post">
-            <input type="number" required placeholder="Enter num1" name="num1">
-            <select name="opr" required>
-                 <option value="" disabled selected >select</option>
-                 <option value="add">+</option>
-                 <option value="sub">-</option>
-                 <option value="mul">x</option>
-                 <option value="div">/</option>
-            </select>
-            <input type="number" required placeholder="Enter num2" name="num2">
-                <button type="submit" >Calculate</button>
-            </form>
-            </div>
-            <div class="output-div">
-                {{output}}
-            </div>
-        </body>
-        </html>
-
-            
-       
-    
+.title-div{
+    float: left;
+    width: 50%;
+    background-color: aqua;
+    margin: 5% 0% 0% 25%; 
+}
+.title-div h1{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.title-div input{
+    width: 25%;
+    padding: 0.5% 0% 0.5% 0%;
+    text-align: center;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+.title-div button{
+    margin:2% 0% 2% 39%;  
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.output-div{
+    float: left;
+    width: 30%;
+    margin: 4% 0% 0% 35%;
+    text-align: center;
+    font-size: 30px;
+}
+.login-div{
+    background-color: beige;
+    float:left;
+    width:50%;
+    margin:2% 0% 2% 25%;
+}
+.login-div input,.login-div button{
+    width:90%;
+    margin:3% 0% 0% 5%;
+    text-align: center;
+    font-size: 30px;
+}
